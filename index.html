@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/8347/8347721.png" type="image/x-icon"> 
+    <title>кликер</title>
+</head>
+<body>
+ <section class="content">
+   <section class="block">
+     <div class="js-counter"></div>
+     <div class="photo">
+        <img class="personPhoto" id="image" src="data:image/jpeg;base64,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">
+     </div>   
+        <button class="js-inc-btn" id="resizeButton"> клик </button>
+        <button class="js-clear-btn"> вывести </button>
+        <button class="js-delit-btn">уничтожить баланc</button>
+     
+   </section>
+ </section>
+ <style>
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+}
+
+.block {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width:300PX;
+  height:500PX;
+}
+
+.js-counter {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.photo {
+  margin: 20px 0;
+}
+
+.personPhoto {
+  border-radius: 50%;
+  width: 200px; /* Измените размер по необходимости */
+  height: 200px; /* Измените размер по необходимости */
+  object-fit: cover; /* Обрезает изображение, сохраняя его пропорции */
+}
+
+
+.js-inc-btn,.js-clear-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 50px; /* Главная кнопка круглой формы */
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.js-inc-btn:hover {
+  background-color: #45a049;
+}
+
+.js-clear-btn {
+  background-color: #f44336; /* Красная кнопка "Вывести" */
+}
+
+.js-clear-btn:hover {
+  background-color: #d32f2f;
+}
+
+
+.balance {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000000;
+}
+
+
+
+.js-delit-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.js-delit-btn:hover {
+  background-color: darkred;
+}
+
+@media only screen and (max-width: 768px) {
+  /* стили для мобильных устройств */
+  .js-counter {
+    font-size: 1.5em;
+  }
+  .js-inc-btn, .js-clear-btn, .js-delit-btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+  }
+  
+  .balance {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000000;
+  }
+
+}
+
+ </style>
+    <script src="script.js"></script>
+</body>
+</html>
